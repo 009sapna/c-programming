@@ -1,0 +1,37 @@
+
+#include<stdio.h>
+int main(){
+    int math_marks;
+    int physics_marks;
+    int chemistry_marks;
+    int totalmarks;
+    int mathphysicstotal;
+
+    printf("Enter Marks of Mathematics: ");
+    scanf("%d",&math_marks);
+
+    printf("Enter Marks of Physics: ");
+    scanf("%d",&physics_marks);
+
+    printf("Enter Marks of Chemistry: ");
+    scanf("%d",&chemistry_marks);
+
+    if(totalmarks=math_marks+physics_marks+chemistry_marks){
+            printf("Total Marks=");
+            printf("%d",totalmarks);
+    }
+    if(mathphysicstotal=math_marks+physics_marks){
+        printf("Maths Physics Total=");
+        printf("%d",mathphysicstotal);
+    }
+
+    if(math_marks>=65&&physics_marks>=55&&chemistry_marks>=50){
+        if(totalmarks>=190 || mathphysicstotal>=140){
+            printf("Candidate is Eligible");
+
+        }else{
+            printf("Candidate is Not Eligible");
+        }
+    }
+
+}
