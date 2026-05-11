@@ -1,13 +1,14 @@
 #include <stdio.h>
-int main(){
+int main()
+{
 
     //Declaring value
     int kilometers;
     float meters;
-    int feets;
-    int inches;
-    int centimeter;
-    int foots;
+    float feets;
+    float inches;
+    float centimeter;
+    float foots;
 
 
     //Taking input distance  in kilometer
@@ -27,11 +28,11 @@ int main(){
     centimeter=kilometers*100000;
 
     //print result
-    printf("%f",meters);
-     printf("%d",feets);
-        printf("%d",inches);
-          printf("%d",centimeter);
+    printf("\nmeter : %f",meters);
+    printf("\nfeets :%f",feets);
+    printf("\ninches:%f",inches);
+    printf("\ncentimeter:%f",centimeter);
 
-
+return 0
 
 }
